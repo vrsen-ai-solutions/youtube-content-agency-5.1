@@ -1,7 +1,5 @@
-agency-swarm[fastapi]>=1.2.0
-agency-swarm[litellm]>=1.2.0
-fastapi
-uvicorn
+agency-swarm[fastapi]>=1.4.0
+agency-swarm[litellm]>=1.4.0
 youtube-transcript-api
 python-dotenv
 notion-client

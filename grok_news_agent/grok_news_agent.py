@@ -7,9 +7,9 @@ load_dotenv()
 
 grok_news_agent = Agent(
     name="GrokNewsAgent", 
-    description="A specialized news research agent that uses Grok AI to fetch the most recent AI news and viral tweets, providing trend analysis and content opportunities for YouTube content strategy.",
+    description="A specialized news research agent that fetches the most recent AI news and viral tweets, providing trend analysis and content opportunities for YouTube content strategy.",
     instructions="./instructions.md",
-    model="litellm/xai/grok-4",
+    model="gpt-5.1",
     model_settings=ModelSettings(
         max_tokens=25000,
         extra_body={
