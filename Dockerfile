@@ -30,6 +30,6 @@ COPY requirements.txt .
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-RUN pip install -U agents
+RUN pip install -U openai-agents
 
 CMD python -u main.py
