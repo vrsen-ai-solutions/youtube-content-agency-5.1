@@ -21,7 +21,7 @@ def create_agency(load_threads_callback=None):
             (yt_content_strategy_agent, builder_tom_agent),
             (title_generation_agent, builder_tom_agent)
         ],
-        name="YouTubeContentAgency", # don't forget to rename your agency!
+        name="YouTubeContentAgency5.1", # don't forget to rename your agency!
         shared_instructions="channel_description.md",
         load_threads_callback=load_threads_callback,
     )
